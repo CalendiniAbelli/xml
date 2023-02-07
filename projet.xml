@@ -10,9 +10,9 @@
             <nombrePlaces> 15 </nombrePlaces>
             <duree> 10 </duree>
             <langue nom="Espagnol">
-                    <niveauCours> Bon niveau (B2) </niveauCours>
-                    <heuresCours> 40 </heuresCours>
-                    <test> test ELYTE </test>
+                <niveauCours> Bon niveau (B2) </niveauCours>
+                <heuresCours> 40 </heuresCours>
+                <test> test ELYTE </test>
             </langue>
         </offre>
 
@@ -25,9 +25,9 @@
             <nombrePlaces> 25 </nombrePlaces>
             <duree> 10 </duree>
             <langue nom="Anglais">
-                    <niveauCours> Bon niveau (B2) </niveauCours>
-                    <heuresCours> 40 </heuresCours>
-                    <test> test TOEIC </test>
+                <niveauCours> Bon niveau (B2) </niveauCours>
+                <heuresCours> 40 </heuresCours>
+                <test> test TOEIC </test>
             </langue>
         </offre>
 
@@ -40,9 +40,9 @@
             <nombrePlaces> 5 </nombrePlaces>
             <duree> 20 </duree>
             <langue nom="Espagnol">
-                    <niveauCours> Bon niveau (B2) </niveauCours>
-                    <heuresCours> 60 </heuresCours>
-                    <test> test ELYTE </test>
+                <niveauCours> Bon niveau (B2) </niveauCours>
+                <heuresCours> 60 </heuresCours>
+                <test> test ELYTE </test>
             </langue>
         </offre>
 
@@ -90,7 +90,7 @@
                 <test> test Zertifikat Deutsch </test>
             </langue>
         </offre>
-       
+
         <offre offreId="007">
             <type>Colonies de vacances</type>
             <destination>Séville, Espagne</destination>
@@ -130,9 +130,9 @@
             <nombrePlaces> 5 </nombrePlaces>
             <duree> 20 </duree>
             <langue nom="Allemand">
-                    <niveauCours> Intermédiaire (B1) </niveauCours>
-                    <heuresCours> 40 </heuresCours>
-                    <test> test ZOP </test>
+                <niveauCours> Intermédiaire (B1) </niveauCours>
+                <heuresCours> 40 </heuresCours>
+                <test> test ZOP </test>
             </langue>
         </offre>
 
@@ -145,11 +145,11 @@
             <nombrePlaces> 25 </nombrePlaces>
             <duree> 15 </duree>
             <langue nom="Anglais">
-                    <niveauCours> Intermédiaire (B2) </niveauCours>
-                    <heuresCours> 70 </heuresCours>
-                    <test> test TOEFL </test>
+                <niveauCours> Intermédiaire (B2) </niveauCours>
+                <heuresCours> 70 </heuresCours>
+                <test> test TOEFL </test>
             </langue>
-        </offre>  
+        </offre>
     </offres>
 
     <activites>
@@ -165,7 +165,7 @@
             <description> Vous profiterez d'une heure de jetSki avec un accompagnateur. </description>
             <nombrePersonne> 10 </nombrePersonne>
             <duree> 1 </duree>
-            <prix> 50 </prix>  
+            <prix> 50 </prix>
         </activite>
 
         <activite activiteId="003">
@@ -180,7 +180,7 @@
             <description> Balade dans les campagnes proches de la ville avec un guide expérimenté. </description>
             <nombrePersonne> 12 </nombrePersonne>
             <duree> 4 </duree>
-            <prix> 20 </prix>  
+            <prix> 20 </prix>
         </activite>
 
         <activite activiteId="005">
@@ -202,7 +202,7 @@
             <description> Participez à des projets de volontariat pour aider les communautés locales. Vous participerez à l'aménagement d'une nouvelle école. </description>
             <nombrePersonne> 15 </nombrePersonne>
             <duree> 5 </duree>
-            <prix> 50 </prix>  
+            <prix> 50 </prix>
         </activite>
 
         <activite activiteId="008">
@@ -210,7 +210,7 @@
             <description> Profitez d'une balade à vélo pour découvrir la ville sous un autre angle. </description>
             <nombrePersonne> 20 </nombrePersonne>
             <duree> 3 </duree>
-            <prix> 25 </prix>  
+            <prix> 25 </prix>
         </activite>
 
         <activite activiteId="009">
@@ -638,36 +638,36 @@
                 <age>21</age>
 
                 <voyages>
-                  <voyage voyageIdRef="002"/>
+                    <voyage voyageIdRef="002"/>
                 </voyages>
 
                 <contact>
-                  <numeroTelephone>0612121214</numeroTelephone>
-                  <adresse>567 route des deux moulins</adresse>
-                  <ville>Nice</ville>
-                  <codePostale>06300</codePostale>
-                  <adresseMail>bruno.martin@gmail.com</adresseMail>
+                    <numeroTelephone>0612121214</numeroTelephone>
+                    <adresse>567 route des deux moulins</adresse>
+                    <ville>Nice</ville>
+                    <codePostale>06300</codePostale>
+                    <adresseMail>bruno.martin@gmail.com</adresseMail>
                 </contact>
 
                 <contactUrgence>
-                  <lien>Mère</lien>
-                  <nom>Martin</nom>
-                  <prenom>Cathy</prenom>
-                  <numeroTelephone>0612121215</numeroTelephone>
+                    <lien>Mère</lien>
+                    <nom>Martin</nom>
+                    <prenom>Cathy</prenom>
+                    <numeroTelephone>0612121215</numeroTelephone>
                 </contactUrgence>
 
                 <langues>
-                  <langue nom="Espagnol">
-                    <niveau>Intermédiaire (B1)</niveau>
-                  </langue>
-                  <langue nom="Français">
-                    <niveau>Langue Maternelle (C2)</niveau>
-                  </langue>
-                  <langue nom="Anglais">
-                    <niveau>Bon niveau (B2)</niveau>
-                  </langue>
+                    <langue nom="Espagnol">
+                        <niveau>Intermédiaire (B1)</niveau>
+                    </langue>
+                    <langue nom="Français">
+                        <niveau>Langue Maternelle (C2)</niveau>
+                    </langue>
+                    <langue nom="Anglais">
+                        <niveau>Bon niveau (B2)</niveau>
+                    </langue>
                 </langues>
-              </client>
+            </client>
 
         </clients>
 
@@ -1017,8 +1017,8 @@
                 <prenom> Thomas </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="003" >
-                    <voyage voyageIdRef="004" >
+                    <voyage voyageIdRef="003" />
+                    <voyage voyageIdRef="004" />
                 </voyages>
 
                 <matieres>
@@ -1291,7 +1291,7 @@
             </activites>
             <dateDepart> 01/08/2023 </dateDepart>
         </voyage>
-       
+
 
         <voyage voyageId="005">
             <offre offreIdRef="005" />
@@ -1341,7 +1341,7 @@
             </activites>
             <dateDepart> 01/03/2023 </dateDepart>
         </voyage>
-       
+
         <voyage voyageId="010">
             <offre offreIdRef="010" />
             <activites>
