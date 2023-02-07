@@ -150,9 +150,9 @@
                     <test> test TOEFL </test>
             </langue>
         </offre>  
-    <offres>
+    </offres>
 
-    <actvites>
+    <activites>
         <activite activiteId="001">
             <type> Visite </type>
             <description> Visite de la Sagrada Familia avec un guide expérimenté. </description>
@@ -237,7 +237,7 @@
                 <age> 19 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="001" >
+                    <voyage voyageIdRef="001" />
                 </voyages>
 
                 <contact>
@@ -273,7 +273,7 @@
                 <age> 20 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="006" >
+                    <voyage voyageIdRef="006" />
                 </voyages>
 
                 <contact>
@@ -312,7 +312,7 @@
                 <age> 17 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="007" >
+                    <voyage voyageIdRef="007" />
                 </voyages>
 
                 <contact>
@@ -351,7 +351,7 @@
                 <age> 21 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="007" >
+                    <voyage voyageIdRef="007" />
                 </voyages>
 
                 <contact>
@@ -387,7 +387,7 @@
                 <age> 25 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="009" >
+                    <voyage voyageIdRef="009" />
                 </voyages>
 
                 <contact>
@@ -423,7 +423,7 @@
                 <age> 21 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="002" >
+                    <voyage voyageIdRef="002" />
                 </voyages>
 
                 <contact>
@@ -458,7 +458,7 @@
                 <prenom>Benjamin</prenom>
                 <age> 25 </age>
                 <voyages>
-                    <voyage voyageIdRef="003" >
+                    <voyage voyageIdRef="003" />
                 </voyages>
 
                 <contact>
@@ -494,7 +494,7 @@
                 <age> 35 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="004" >
+                    <voyage voyageIdRef="004" />
                 </voyages>
 
                 <contact>
@@ -530,7 +530,7 @@
                 <age> 27 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
+                    <voyage voyageIdRef="005" />
                 </voyages>
 
                 <contact>
@@ -566,7 +566,7 @@
                 <age> 22 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="008" >
+                    <voyage voyageIdRef="008" />
                 </voyages>
 
                 <contact>
@@ -602,7 +602,7 @@
                 <age> 31 </age>
 
                 <voyages>
-                    <voyage voyageIdRef="010" >
+                    <voyage voyageIdRef="010" />
                 </voyages>
 
                 <contact>
@@ -677,8 +677,8 @@
                 <prenom> Paul </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="001" >
-                    <voyage voyageIdRef="003" >
+                    <voyage voyageIdRef="001" />
+                    <voyage voyageIdRef="003" />
                 </voyages>
 
                 <diplomes>
@@ -706,8 +706,8 @@
                 <prenom> Sophie </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="006" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="006" />
                 </voyages>
 
                 <diplomes>
@@ -735,8 +735,8 @@
                 <prenom> Pierre </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="002" >
-                    <voyage voyageIdRef="009" >
+                    <voyage voyageIdRef="002" />
+                    <voyage voyageIdRef="009" />
                 </voyages>
 
                 <diplomes>
@@ -759,8 +759,8 @@
                 <nom> Durand </nom>
                 <prenom> Jean </prenom>
                 <voyages>
-                    <voyage voyageIdRef="004" >
-                    <voyage voyageIdRef="006" >
+                    <voyage voyageIdRef="004" />
+                    <voyage voyageIdRef="006" />
                 </voyages>
 
                 <diplomes>
@@ -788,7 +788,7 @@
                 <prenom> Marie Josephine </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
+                    <voyage voyageIdRef="005" />
                 </voyages>
 
                 <diplomes>
@@ -816,7 +816,7 @@
                 <prenom> Thibault </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="007" >
+                    <voyage voyageIdRef="007" />
                 </voyages>
 
                 <diplomes>
@@ -841,9 +841,9 @@
                 <prenom> Robin </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="007" >
-                    <voyage voyageIdRef="008" >
-                    <voyage voyageIdRef="010" >
+                    <voyage voyageIdRef="007" />
+                    <voyage voyageIdRef="008" />
+                    <voyage voyageIdRef="010" />
                 </voyages>
 
                 <diplomes>
@@ -877,8 +877,8 @@
                 <prenom> Pablo </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="001" >
-                    <voyage voyageIdRef="002" >
+                    <voyage voyageIdRef="001" />
+                    <voyage voyageIdRef="002" />
                 </voyages>
 
                 <diplomes>
@@ -902,8 +902,8 @@
                 <prenom> Maria Santa </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="007" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="007" />
                 </voyages>
 
                 <diplomes>
@@ -930,8 +930,8 @@
                 <prenom> Paul Marie </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="010" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="010" />
                 </voyages>
 
                 <diplomes>
@@ -961,8 +961,8 @@
                 <prenom> Manuel </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="001" >
-                    <voyage voyageIdRef="002" >
+                    <voyage voyageIdRef="001" />
+                    <voyage voyageIdRef="002" />
                 </voyages>
 
                 <matieres>
@@ -989,8 +989,8 @@
                 <prenom> Marie </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="009" >
-                    <voyage voyageIdRef="010" >
+                    <voyage voyageIdRef="009" />
+                    <voyage voyageIdRef="010" />
                 </voyages>
 
                 <matieres>
@@ -1017,8 +1017,8 @@
                 <prenom> Thomas </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="003" >
-                    <voyage voyageIdRef="004" >
+                    <voyage voyageIdRef="003" />
+                    <voyage voyageIdRef="004" />
                 </voyages>
 
                 <matieres>
@@ -1046,8 +1046,8 @@
                 <prenom> Sophie </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="007" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="007" />
                 </voyages>
 
                 <matieres>
@@ -1074,9 +1074,9 @@
                 <prenom> Bernard </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="006" >
-                    <voyage voyageIdRef="008" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="006" />
+                    <voyage voyageIdRef="008" />
                 </voyages>
 
                 <matieres>
@@ -1106,8 +1106,8 @@
                 <prenom> Jean </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="006" >
-                    <voyage voyageIdRef="009" >
+                    <voyage voyageIdRef="006" />
+                    <voyage voyageIdRef="009" />
                 </voyages>
 
                 <matieres>
@@ -1134,9 +1134,9 @@
                 <prenom> Jocelyne </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="007" >
-                    <voyage voyageIdRef="010" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="007" />
+                    <voyage voyageIdRef="010" />
                 </voyages>
 
                 <matieres>
@@ -1163,9 +1163,9 @@
                 <prenom> Pedro </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="003" >
-                    <voyage voyageIdRef="007" >
-                    <voyage voyageIdRef="008" >
+                    <voyage voyageIdRef="003" />
+                    <voyage voyageIdRef="007" />
+                    <voyage voyageIdRef="008" />
                 </voyages>
 
                 <matieres>
@@ -1193,9 +1193,9 @@
                 <prenom> Elena </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="005" >
-                    <voyage voyageIdRef="006" >
-                    <voyage voyageIdRef="009" >
+                    <voyage voyageIdRef="005" />
+                    <voyage voyageIdRef="006" />
+                    <voyage voyageIdRef="009" />
                 </voyages>
 
                 <matieres>
@@ -1227,9 +1227,9 @@
                 <prenom> Taïa </prenom>
 
                 <voyages>
-                    <voyage voyageIdRef="002" >
-                    <voyage voyageIdRef="008" >
-                    <voyage voyageIdRef="009" >
+                    <voyage voyageIdRef="002" />
+                    <voyage voyageIdRef="008" />
+                    <voyage voyageIdRef="009" />
                 </voyages>
 
                 <matieres>
@@ -1267,7 +1267,7 @@
 
         <voyage voyageId="002">
             <offre offreIdRef="002" />
-            <actvites>
+            <activites>
                 <actvite activiteIdRef="003"/>
                 <actvite activiteIdRef="008"/>
             </activites>
@@ -1286,7 +1286,7 @@
 
         <voyage voyageId="004">
             <offre offreIdRef="004" />
-            <actvites>
+            <activites>
                 <actvite activiteIdRef="007"/>
             </activites>
             <dateDepart> 01/08/2023 </dateDepart>
@@ -1304,7 +1304,7 @@
 
         <voyage voyageId="006">
             <offre offreIdRef="006" />
-            <actvites>
+            <activites>
                 <actvite activiteIdRef="008"/>
                 <actvite activiteIdRef="009"/>
             </activites>
@@ -1386,79 +1386,45 @@ Subject:
 
     <offres>
 
-        <offre
-offreId="001">
-
+        <offre offreId="001">
             <type>Colonies de vacances</type>
-
             <destination>Barcelone, Espagne</destination>
+            <ageMin> 16 </ageMin>
+            <ageMax> 20 </ageMax>
 
-            <ageMin> 16
-</ageMin>
+            <prix> 300 </prix>
+            <nombrePlaces> 15 </nombrePlaces>
+            <duree> 10 </duree>
 
-            <ageMax> 20
-</ageMax>
+            <langue nom="Espagnol">
 
-            <prix> 300
-</prix>
-
-            <nombrePlaces> 15
-</nombrePlaces>
-
-            <duree> 10
-</duree>
-
-            <langue
-nom="Espagnol">
-
-                    <niveauCours> Bon niveau (B2)
-</niveauCours>
-
-                    <heuresCours> 40
-</heuresCours>
-
-                    <test> test ELYTE
-</test>
-
+                    <niveauCours> Bon niveau (B2) </niveauCours>
+                    <heuresCours> 40 </heuresCours>
+                    <test> test ELYTE </test>
             </langue>
 
         </offre>
 
 
 
-        <offre
-offreId="002">
+        <offre offreId="002">
 
             <type>Colonies de vacances</type>
-
             <destination>Londres, Royaume Uni</destination>
 
-            <ageMin> 16
-</ageMin>
+            <ageMin> 16 </ageMin>
+            <ageMax> 21 </ageMax>
+            <prix> 400 </prix>
 
-            <ageMax> 21
-</ageMax>
+            <nombrePlaces> 25 </nombrePlaces>
 
-            <prix> 400
-</prix>
+            <duree> 10 </duree>
 
-            <nombrePlaces> 25
-</nombrePlaces>
+            <langue nom="Anglais">
 
-            <duree> 10
-</duree>
-
-            <langue
-nom="Anglais">
-
-                    <niveauCours> Bon niveau (B2)
-</niveauCours>
-
-                    <heuresCours> 40
-</heuresCours>
-
-                    <test> test TOEIC
-</test>
+                    <niveauCours> Bon niveau (B2) </niveauCours>
+                    <heuresCours> 40 </heuresCours>
+                    <test> test TOEIC </test>
 
             </langue>
 
@@ -1466,71 +1432,39 @@ nom="Anglais">
 
 
 
-        <offre
-offreId="003">
+        <offre offreId="003">
 
             <type> Immersion en famille</type>
-
             <destination>Madrid, Espagne</destination>
+            <ageMin> 16 </ageMin>
+            <ageMax> 25 </ageMax>
+            <prix> 200 </prix>
 
-            <ageMin> 16
-</ageMin>
+            <nombrePlaces> 5 </nombrePlaces>
 
-            <ageMax> 25
-</ageMax>
+            <duree> 20 </duree>
 
-            <prix> 200
-</prix>
+            <langue nom="Espagnol">
 
-            <nombrePlaces> 5
-</nombrePlaces>
-
-            <duree> 20
-</duree>
-
-            <langue
-nom="Espagnol">
-
-                    <niveauCours> Bon niveau (B2)
-</niveauCours>
-
-                    <heuresCours> 60
-</heuresCours>
-
-                    <test> test ELYTE
-</test>
+                    <niveauCours> Bon niveau (B2) </niveauCours>
+                    <heuresCours> 60 </heuresCours>
+                    <test> test ELYTE </test>
 
             </langue>
 
         </offre>
 
-
-
-        <offre
-offreId="004">
+        <offre offreId="004">
 
             <type>Voyage humanitaire</type>
-
             <destination>Nairobi, Kenya</destination>
-
-            <ageMin> 18
-</ageMin>
-
-            <ageMax> 25
-</ageMax>
-
-            <prix> 500
-</prix>
-
-            <nombrePlaces> 10
-</nombrePlaces>
-
-            <duree> 30
-</duree>
+            <ageMin> 18</ageMin>
+            <ageMax> 25 </ageMax>
+            <prix> 500 </prix>
+            <nombrePlaces> 10 </nombrePlaces>
+            <duree> 30 </duree>
 
         </offre>
-
-
 
         <offre
 offreId="005">
@@ -3943,7 +3877,7 @@ mathilde.dubois@gmail.com </adresseMail>
 
                 <nom> Ngado </nom>
 
-                <prenom> Taïa </prenom>
+                <prenom> Taia </prenom>
 
 
 
@@ -4030,13 +3964,9 @@ mathilde.dubois@gmail.com </adresseMail>
             <offre offreIdRef="002" />
 
             <actvites>
-
                 <actvite activiteIdRef="003"/>
-
                 <actvite activiteIdRef="008"/>
-
             </activites>
-
             <dateDepart> 01/03/2023 </dateDepart>
 
         </voyage>
@@ -4048,15 +3978,10 @@ mathilde.dubois@gmail.com </adresseMail>
             <offre offreIdRef="003" />
 
             <activites>
-
                 <actvite activiteIdRef="003"/>
-
                 <actvite activiteIdRef="005"/>
-
                 <actvite activiteIdRef="008"/>
-
             </activites>
-
             <dateDepart> 10/06/2023 </dateDepart>
 
         </voyage>
@@ -4068,31 +3993,20 @@ mathilde.dubois@gmail.com </adresseMail>
             <offre offreIdRef="004" />
 
             <actvites>
-
                 <actvite activiteIdRef="007"/>
-
             </activites>
 
             <dateDepart> 01/08/2023 </dateDepart>
 
         </voyage>
 
-        
-
-
-
         <voyage voyageId="005">
 
             <offre offreIdRef="005" />
-
             <activites>
-
                 <actvite activiteIdRef="007"/>
-
                 <actvite activiteIdRef="010"/>
-
             </activites>
-
             <dateDepart> 01/01/2023 </dateDepart>
 
         </voyage>
@@ -4102,15 +4016,10 @@ mathilde.dubois@gmail.com </adresseMail>
         <voyage voyageId="006">
 
             <offre offreIdRef="006" />
-
             <actvites>
-
                 <actvite activiteIdRef="008"/>
-
                 <actvite activiteIdRef="009"/>
-
             </activites>
-
             <dateDepart> 01/10/2023 </dateDepart>
 
         </voyage>
@@ -4122,13 +4031,9 @@ mathilde.dubois@gmail.com </adresseMail>
             <offre offreIdRef="007" />
 
             <activites>
-
                 <actvite activiteIdRef="003"/>
-
                 <actvite activiteIdRef="008"/>
-
                 <actvite activiteIdRef="010"/>
-
             </activites>
 
             <dateDepart> 10/01/2023 </dateDepart>
@@ -4142,17 +4047,11 @@ mathilde.dubois@gmail.com </adresseMail>
             <offre offreIdRef="008" />
 
             <activites>
-
                 <actvite activiteIdRef="002"/>
-
                 <actvite activiteIdRef="003"/>
-
                 <actvite activiteIdRef="005"/>
-
                 <actvite activiteIdRef="008"/>
-
                 <actvite activiteIdRef="010"/>
-
             </activites>
 
             <dateDepart> 01/11/2023 </dateDepart>
@@ -4187,8 +4086,6 @@ mathilde.dubois@gmail.com </adresseMail>
 
         </voyage>
 
-
-
         <voyage voyageId="011">
 
             <offre offreIdRef="011" />
@@ -4201,8 +4098,6 @@ mathilde.dubois@gmail.com </adresseMail>
             <dateDepart> 01/08/2023 </dateDepart>
 
         </voyage>
-
-
 
         <voyage voyageId="012">
             <offre offreIdRef="011" />
@@ -4238,4 +4133,4 @@ mathilde.dubois@gmail.com </adresseMail>
 
     </voyages>
 
-</organisme>
+</Organisme>
