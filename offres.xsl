@@ -3,40 +3,55 @@
   <xsl:template match="Organisme">
     <html>
       <head>
-        <title>Liste des voyages disponibles</title>
+        <title>Liste des offres disponibles</title>
         <link rel="stylesheet" type="text/css" href="offres.css"/>
       </head>
       <body>
         <h1>Liste des voyages disponibles</h1>
         <table border="1">
           <tr>
-            <th>Code voyage</th>
-            <th>DateDepart</th>
-            <th>Type d'offre</th>
+            <th>Type</th>
             <th>Destination</th>
+            <th>Age minimum</th>
+            <th>Age maximum</th>
+            <th>Prix</th>
+            <th>Nombre de places</th>
+            <th>Durée</th>
+            <th>Langue</th>
+            <th>Niveau de cours</th>
+            <th>Heures de cours</th>
+            <th>Test</th>
           </tr>
+          <xsl:for-each select="offres/offre">
+            <xsl:sort select="type"/>
+                <tr>
+                    <td style="background-color: {
+                        if (type = 'Immersion en famille') then 'lightblue'
+                        else if (type = 'Colonies de vacances') then 'lightgreen'
+                        else if (type = 'Groupe scolaire') then 'lightyellow'
+                        else 'lightgrey'
+                        }"> 
+                    <xsl:value-of select="type"/> 
+                    </td>
 
-          
-            <xsl:for-each select="voyages/voyage">
-            <tr>
-              <td> <xsl:value-of select="@voyageId"/> </td>
-              <td> <xsl:value-of select="dateDepart"/> </td>
-              <xsl:variable name="offreIdRef"> <xsl:value-of select="offre/@offreIdRef"/> </xsl:variable>
-
-              <xsl:for-each select="../../offres/offre">
-                <xsl:if test="@offreId=$offreIdRef">  
-                    <td><xsl:value-of select="type"/></td>
-                    <td><xsl:value-of select="destination"/></td>
-                </xsl:if>
-              </xsl:for-each>
-            </tr>
-            </xsl:for-each> 
-          
-        
+                    <td> <xsl:value-of select="destination"/> </td>
+                    <td> <xsl:value-of select="ageMin"/> </td>
+                    <td> <xsl:value-of select="ageMax"/> </td>
+                    <td> <xsl:value-of select="prix"/> </td>
+                    <td> <xsl:value-of select="nombrePlaces"/> </td>
+                    <td> <xsl:value-of select="duree"/> </td>
+                    
+                    <xsl:for-each select="langue">
+                        <td> <xsl:value-of select="@nom"/> </td>
+                        <td> <xsl:value-of select="niveauCours"/> </td>
+                        <td> <xsl:value-of select="heuresCours"/> </td>
+                        <td> <xsl:value-of select="test"/> </td>
+                    </xsl:for-each>
+                    
+                </tr>
+          </xsl:for-each>
         </table>
       </body>
     </html>
   </xsl:template>
 </xsl:stylesheet>
-
-          
