@@ -1,0 +1,323 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="emailAddress">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^\.]+\..+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumTypeOffre">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Colonie de vacances"/>
+            <xs:enumeration value="Voyage humanitaire"/>
+            <xs:enumeration value="Groupe scolaire"/>
+            <xs:enumeration value="Immersion en famille"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumActiviteOffre">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Visite"/>
+            <xs:enumeration value="Sport"/>
+            <xs:enumeration value="Cours"/>
+            <xs:enumeration value="Volontariat"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumNiveauLangue">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Langue Maternelle (C2)"/>
+            <xs:enumeration value="Excellent (C2)"/>
+            <xs:enumeration value="Expérimenté (C1)"/>
+            <xs:enumeration value="Bon niveau (B2)"/>
+            <xs:enumeration value="Intermédiaire (B1)"/>
+            <xs:enumeration value="Avancé (A2)"/>
+            <xs:enumeration value="Débutant (A1)"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumTest">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ELYTE"/>
+            <xs:enumeration value="TOEIC"/>
+            <xs:enumeration value="NT2"/>
+            <xs:enumeration value="TOEFL"/>
+            <xs:enumeration value="Zertifikat Deutsch"/>
+            <xs:enumeration value="ZOP"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="EnumLien">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Père"/>
+            <xs:enumeration value="Mère"/>
+            <xs:enumeration value="Frère"/>
+            <xs:enumeration value="Soeur"/>
+            <xs:enumeration value="Responsable Legal"/>
+            <xs:enumeration value="Ami"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="Organisme" type="OrganismeType">
+        <xs:key name="offreId">
+            <xs:selector xpath="offres/offre"/>
+            <xs:field xpath="@offreId"/>
+        </xs:key>
+        <xs:keyref name="offreIdRef" refer="offreId">
+            <xs:selector xpath="voyages/voyage/offre"/>
+            <xs:field xpath="@offreIdRef"/>
+        </xs:keyref>
+
+        <xs:key name="activiteId">
+            <xs:selector xpath="activites/activite"/>
+            <xs:field xpath="@activiteId"/>
+        </xs:key>
+        <xs:keyref name="activiteIdRef" refer="activiteId">
+            <xs:selector xpath="voyages/voyage/activites/activite"/>
+            <xs:field xpath="@activiteIdRef"/>
+        </xs:keyref>
+
+        <xs:key name="voyageId">
+            <xs:selector xpath="voyages/voyage"/>
+            <xs:field xpath="@voyageId"/>
+        </xs:key>
+        <xs:keyref name="voyageClientIdRef" refer="voyageId">
+            <xs:selector xpath="utilisateurs/clients/client/voyages/voyage"/>
+            <xs:field xpath="@voyageIdRef"/>
+        </xs:keyref>
+        <xs:keyref name="voyageMoniteurIdRef" refer="voyageId">
+            <xs:selector xpath="utilisateurs/moniteurs/moniteur/voyages/voyage"/>
+            <xs:field xpath="@voyageIdRef"/>
+        </xs:keyref>
+        <xs:keyref name="voyageEnseignantIdRef" refer="voyageId">
+            <xs:selector xpath="utilisateurs/enseignants/enseignant/voyages/voyage"/>
+            <xs:field xpath="@voyageIdRef"/>
+        </xs:keyref>
+    </xs:element>
+
+    <xs:complexType name='OrganismeType'>
+        <xs:sequence>
+            <xs:element name='offres' type='offresType'/>
+            <xs:element name='activites' type='activitesType'/>
+            <xs:element name='utilisateurs' type='utilisateursType'/>
+            <xs:element name='voyages' type='voyagesType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="offresType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='offre' type='offreType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="offreType">
+        <xs:sequence>
+            <xs:element name='type' type='EnumTypeOffre'/>
+            <xs:element name='destination' type='xs:string'/>
+            <xs:element name='ageMin' type='xs:decimal'/>
+            <xs:element name='ageMax' type='xs:decimal'/>
+            <xs:element name='prix' type='xs:decimal'/>
+            <xs:element name='nombrePlaces' type='xs:decimal'/>
+            <xs:element name='duree' type='xs:decimal'/>
+            <xs:element minOccurs="0"  name='langue' type='langueOffreType'/>
+        </xs:sequence>
+        <xs:attribute name='offreId' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="langueOffreType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='niveauCours' type='EnumNiveauLangue'/>
+            <xs:element name='heuresCours' type='xs:decimal'/>
+            <xs:element name='test' type='EnumTest'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="activitesType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='activite' type='activiteType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="activiteType">
+        <xs:sequence>
+            <xs:element name='type' type='EnumActiviteOffre'/>
+            <xs:element name='description' type='xs:string'/>
+            <xs:element minOccurs="0"  name='prix' type='xs:decimal'/>
+            <xs:element name='nombrePersonne' type='xs:decimal'/>
+            <xs:element name='duree' type='xs:decimal'/>
+        </xs:sequence>
+        <xs:attribute name='activiteId' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="utilisateursType">
+        <xs:sequence>
+            <xs:element name='clients' type='clientsType'/>
+            <xs:element name='moniteurs' type='moniteursType'/>
+            <xs:element name='enseignants' type='enseignantsType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="clientsType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='client' type='clientType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="clientType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='prenom' type='xs:string'/>
+            <xs:element name='age' type='xs:decimal'/>
+            <xs:element name='voyages' type='voyagesClientsType'/>
+            <xs:element name='contact' type='contactType'/>
+            <xs:element name='contactUrgence' type='contactUrgenceType'/>
+            <xs:element name='langues' type='languesType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesClientsType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='voyage' type='voyagesClientType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesClientType">
+        <xs:attribute name='voyageClientIdRef' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="contactType">
+        <xs:sequence>
+            <xs:element name='numeroTelephone' type='xs:decimal'/>
+            <xs:element name='adresse' type='xs:string'/>
+            <xs:element name='ville' type='xs:string'/>
+            <xs:element name='codePostale' type='xs:decimal'/>
+            <xs:element name='adresseMail' type='emailAddress'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="contactUrgenceType">
+        <xs:sequence>
+            <xs:element name='lien' type='EnumLien'/>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='prenom' type='xs:string'/>
+            <xs:element name='numeroTelephone' type='xs:decimal'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="languesType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='langue' type='langueType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="langueType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='niveau' type='EnumNiveauLangue'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="moniteursType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='moniteur' type='moniteurType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="moniteurType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='prenom' type='xs:string'/>
+            <xs:element name='voyages' type='voyagesMoniteursType'/>
+            <xs:element name='contact' type='contactType'/>
+            <xs:element name='diplomes' type='diplomesType'/>
+            <xs:element name='langues' type='languesType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesMoniteursType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='voyage' type='voyagesMoniteurType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesMoniteurType">
+        <xs:attribute name='voyageMoniteurIdRef' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="diplomesType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='diplome' type='diplomeType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="diplomeType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='anneeObtention' type='xs:decimal'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="enseignantsType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='enseignant' type='enseignantType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="enseignantType">
+        <xs:sequence>
+            <xs:element name='nom' type='xs:string'/>
+            <xs:element name='prenom' type='xs:string'/>
+            <xs:element name='voyages' type='voyagesEnseignantsType'/>
+            <xs:element name='contact' type='contactType'/>
+            <xs:element name='matieres' type='matieresType'/>
+            <xs:element name='langues' type='languesType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesEnseignantsType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='voyage' type='voyagesEnseignantType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesEnseignantType">
+        <xs:attribute name='voyageEnseignantIdRef' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="matieresType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='matiere' type='xs:string'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyagesType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='voyage' type='voyageType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="voyageType">
+        <xs:sequence>
+            <xs:element name='offre' type='offreRefType'/>
+            <xs:element name='activites' type='activitesRefType'/>
+            <xs:element name='dateDepart' type='xs:date'/>
+        </xs:sequence>
+        <xs:attribute name='voyageId' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="offreRefType">
+        <xs:attribute name='offreIdRef' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+    <xs:complexType name="activitesRefType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name='activite' type='activiteRefType'/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="activiteRefType">
+        <xs:attribute name='activiteIdRef' type='xs:positiveInteger'/>
+    </xs:complexType>
+
+</xs:schema>
