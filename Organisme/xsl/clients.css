@@ -1,10 +1,10 @@
 table {
     font-family: Arial, sans-serif;
-    border-collapse: collapse;
     border:3px solid #000000;
     margin: auto;
     margin-bottom: 30px;
     width: 50%;
+    empty-cells: hide;
 }
     
 td, th {
@@ -25,7 +25,3 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
 }
-    
-    
-    
-    
