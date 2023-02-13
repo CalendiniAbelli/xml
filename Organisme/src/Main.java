@@ -23,7 +23,7 @@ public class Main {
 
     public static void main(String[] args) throws DocumentException
     {
-        File file =  new File("Organisme.xml") ;
+        File file =  new File("Organisme/Organisme.xml") ;
         SAXReader reader =  new SAXReader() ;
         Document organisme = reader.read(file) ;
 

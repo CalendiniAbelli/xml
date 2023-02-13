@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="Main">
+  <xsl:template match="Organisme">
     <html>
       <head>
         <title>Liste des voyages disponibles</title>
-        <link rel="stylesheet" type="text/css" href="voyages.css"/>
+        <link rel="stylesheet" type="text/css" href="xsl/voyages.css"/>
       </head>
       <body>
         <h1>Liste des voyages disponibles</h1>

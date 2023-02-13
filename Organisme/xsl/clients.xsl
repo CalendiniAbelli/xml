@@ -3,7 +3,7 @@
     <html>
       <head>
         <title> Liste des clients participant aux voyages</title>
-        <link rel="stylesheet" type="text/css" href="clients.css"/>
+        <link rel="stylesheet" type="text/css" href="xsl/clients.css"/>
       </head>
       <body>
         <h1>Liste des clients participant aux voyages </h1>
@@ -25,11 +25,11 @@
                     <td> <xsl:value-of select="dateDepart"/> </td>
                     <xsl:variable name="voyageId"> <xsl:value-of select="@voyageId"/> </xsl:variable>
 
-                    <xsl:variable name="compteur" select="count(../../utilisateurs/clients/client/voyages/voyage[@voyageIdRef=$voyageId])"/>
+                    <xsl:variable name="compteur" select="count(../../utilisateurs/clients/client/voyages/voyage[@voyageClientIdRef=$voyageId])"/>
                     <td> <xsl:value-of select="$compteur"/> </td>
                   
                     <xsl:for-each select="../../utilisateurs/clients/client/voyages/voyage">
-                      <xsl:if test="@voyageIdRef=$voyageId">  
+                      <xsl:if test="@voyageClientIdRef=$voyageId">
         
                         <xsl:if test="$compteur = 1"> 
                           <td><xsl:value-of select="../../nom"/></td>
