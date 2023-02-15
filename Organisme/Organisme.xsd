@@ -114,8 +114,8 @@
         <xs:sequence>
             <xs:element name='type' type='EnumTypeOffre'/>
             <xs:element name='destination' type='xs:string'/>
-            <xs:element name='ageMin' type='xs:decimal'/>
-            <xs:element name='ageMax' type='xs:decimal'/>
+            <xs:element minOccurs="0" name='ageMin' type='xs:decimal'/>
+            <xs:element minOccurs="0" name='ageMax' type='xs:decimal'/>
             <xs:element name='prix' type='xs:decimal'/>
             <xs:element name='nombrePlaces' type='xs:decimal'/>
             <xs:element name='duree' type='xs:decimal'/>

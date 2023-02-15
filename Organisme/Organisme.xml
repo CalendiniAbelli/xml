@@ -2,8 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="xsl/voyages.xsl" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/clients.xsl" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/offres.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/voyagesGroupesJSON.xsl" ?>
 -->
-<?xml-stylesheet type="text/xsl" href="xsl/voyages.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/voyagesGroupesJSON.xsl" ?>
 
 <Organisme
         xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance"
@@ -44,8 +45,6 @@
         <offre offreId="003">
             <type>Immersion en famille</type>
             <destination>Madrid, Espagne</destination>
-            <ageMin>16</ageMin>
-            <ageMax>25</ageMax>
             <prix>200</prix>
             <nombrePlaces>5</nombrePlaces>
             <duree>20</duree>
@@ -118,8 +117,7 @@
         <offre offreId="008">
             <type>Voyage humanitaire</type>
             <destination>New Delhi, Inde</destination>
-            <ageMin>20</ageMin>
-            <ageMax>30</ageMax>
+
             <prix>600</prix>
             <nombrePlaces>15</nombrePlaces>
             <duree>40</duree>

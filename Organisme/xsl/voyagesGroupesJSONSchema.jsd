@@ -1,0 +1,5487 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "offres": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "offreId": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "ageMin": {
+              "type": "string"
+            },
+            "ageMax": {
+              "type": "string"
+            },
+            "prix": {
+              "type": "string"
+            },
+            "nombrePlaces": {
+              "type": "string"
+            },
+            "duree": {
+              "type": "string"
+            },
+            "langue": {
+              "type": "object",
+              "properties": {
+                "nom": {
+                  "type": "string"
+                },
+                "niveauCours": {
+                  "type": "string"
+                },
+                "heuresCours": {
+                  "type": "string"
+                },
+                "test": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "nom",
+                "niveauCours",
+                "heuresCours",
+                "test"
+              ]
+            }
+          },
+          "required": [
+            "offreId",
+            "type",
+            "destination",
+            "ageMin",
+            "ageMax",
+            "prix",
+            "nombrePlaces",
+            "duree",
+            "langue"
+          ]
+        }
+      ]
+    },
+    "voyages": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "voyageId": {
+              "type": "string"
+            },
+            "offreIdRef": {
+              "type": "string"
+            },
+            "dateDepart": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "voyageId",
+            "offreIdRef",
+            "dateDepart"
+          ]
+        }
+      ]
+    },
+    "utilisateurs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "clients": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "age": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "contactUrgence": {
+                      "type": "object",
+                      "properties": {
+                        "lien": {
+                          "type": "string"
+                        },
+                        "nom": {
+                          "type": "string"
+                        },
+                        "prenom": {
+                          "type": "string"
+                        },
+                        "numeroTelephone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "lien",
+                        "nom",
+                        "prenom",
+                        "numeroTelephone"
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "age",
+                    "voyages",
+                    "contact",
+                    "contactUrgence",
+                    "langues"
+                  ]
+                }
+              ]
+            },
+            "moniteurs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "diplomes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "anneeObtention": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "anneeObtention"
+                          ]
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "diplomes",
+                    "langues"
+                  ]
+                }
+              ]
+            },
+            "enseignants": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "nom": {
+                      "type": "string"
+                    },
+                    "prenom": {
+                      "type": "string"
+                    },
+                    "voyages": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "voyageIdRef": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "voyageIdRef"
+                          ]
+                        }
+                      ]
+                    },
+                    "contact": {
+                      "type": "object",
+                      "properties": {
+                        "numeroTelephone": {
+                          "type": "string"
+                        },
+                        "adresse": {
+                          "type": "string"
+                        },
+                        "ville": {
+                          "type": "string"
+                        },
+                        "codePostale": {
+                          "type": "string"
+                        },
+                        "adresseMail": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "numeroTelephone",
+                        "adresse",
+                        "ville",
+                        "codePostale",
+                        "adresseMail"
+                      ]
+                    },
+                    "matieres": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "langues": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "nom": {
+                              "type": "string"
+                            },
+                            "niveau": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "nom",
+                            "niveau"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nom",
+                    "prenom",
+                    "voyages",
+                    "contact",
+                    "matieres",
+                    "langues"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "clients",
+            "moniteurs",
+            "enseignants"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "offres",
+    "voyages",
+    "utilisateurs"
+  ]
+}
